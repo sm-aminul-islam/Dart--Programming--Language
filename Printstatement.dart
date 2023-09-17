@@ -6,5 +6,6 @@ void main() {
   print('3' + '2');
   //3 print 2 times
   print('3' * 2);
+  //Dart follow BODMAS
   print(75 / (5 + 2));
 }
