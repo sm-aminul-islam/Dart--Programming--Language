@@ -60,10 +60,7 @@ void main() {
       print('$key : $value');
     });
   }).toList();
-}
-
-class Student<T> {
-  final String name;
-  final int marks;
-  Student(this.name, this.marks);
+  print(mark[0]);
+  mark.add({'Bangla': 25, 'English': 31, 'Eco': 7});
+  print(mark[3]);
 }
